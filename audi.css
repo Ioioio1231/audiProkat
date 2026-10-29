@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior:smooth;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 30px;
+    width: 100%;
+    background-color: rgb(26, 24, 24);
+    border-bottom: 3px solid rgb(51, 50, 50);
+}
+
+header img {
+    width: 150px;
+}
+header nav {
+    display: flex;
+    gap:60px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.right {
+    color: white;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+
+nav a:hover{
+    color: grey;
+    
+}
+
+.catalog {
+    background-color: rgb(26,24,24);
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.filters ul {
+    display:flex;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    justify-content: center;
+    gap:50px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+
+}
+.filters {
+    width: 100%;
+}
+
+.filters .category {
+    text-align: center;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.filters .search {
+    font-size: 19px;
+    padding-bottom: 13px;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+    
+}
+
+.filters a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    background-color: rgb(51, 50, 50);
+    border-radius: 20px;
+}
+
+
+.filters a:hover{
+    border: 1px solid wheat;
+    background-color:rgb(63, 62, 62) ;
+}
+
+.filters input {
+    width: 20%;
+    height: 45px;
+    border-radius: 20px;
+    background-color: rgb(51, 50, 50);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    border: none;
+}
+
+.filters button {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    height: 35px;
+    color: white;
+    background-color: rgb(51, 50, 50);
+    border: none;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+
+.filters button:hover {
+    box-shadow: 0 5px 10px rgb(51, 50, 50);
+    background-color: rgb(63, 62, 62);
+}
+.filters input:hover {
+    background-color:rgb(63, 62, 62);
+    font-size: 16px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cars {
+    background-color: rgb(26, 24, 24);
+    padding: 50px 100px 50px 100px;
+    
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 calc(50% - 10px); 
+    gap:100px
+}
+
+
+.card {
+    background-color: rgb(51, 50, 50);
+    border: 5px solid rgb(51, 50, 50);
+    border-radius: 10px;
+}
+
+.card h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 0;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+.card p {
+    width: 550px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.card .audi {
+    color: white;
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+
+.card img {
+    object-fit: cover;
+    width: 600px;
+    height: 500px;
+}
+
+.card:hover{
+    background-color: rgb(26, 24, 24);
+    
+}
+
+
+.text {
+    padding: 100px 60px 60px 60px;
+}
+.text h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 31px;
+    padding-bottom: 20px;
+    color:white
+}
+.text p{
+    color:rgb(171, 165, 165);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+.opisanie2{
+    padding-top: 40px;
+}
+.opisanie2 .question {
+    font-size: 34px;
+}
+
+
+.voprosizad {
+    padding: 150px 60px 60px 60px;
+}
+.opisanie3 {
+    margin-bottom: 30px;
+}
+
+.opisanie3 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 31px;
+    padding-bottom: 20px;
+    color:white;
+    
+    
+}
+
+.opisanie3 p{
+    color:rgb(171, 165, 165);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+.voprosizad h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 44px;
+    padding-bottom: 20px;
+    color:white;
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+
+.blockOpisanie3 {
+    border: 2px solid rgb(172, 172, 172);
+    padding: 30px;
+    background-color: rgb(38, 37, 37);
+    border-radius: 50px;
+}
+
+.blockOpisanie3:hover {
+    background-color: rgb(51, 50, 50) ;
+}
